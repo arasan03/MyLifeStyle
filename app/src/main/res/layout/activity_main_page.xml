@@ -84,9 +84,9 @@
         android:id="@+id/textView6"
         android:layout_width="77dp"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imgwoman"
         android:layout_alignTop="@+id/textView5"
-        android:text="Diet Plan" />
+        android:layout_alignEnd="@+id/imgwoman"
+        android:text="Meal Plan" />
 
     <Button
         android:id="@+id/btnevent"
