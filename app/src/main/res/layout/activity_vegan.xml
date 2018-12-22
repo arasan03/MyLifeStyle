@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Vegan">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="316dp"
+                android:layout_height="216dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/vegan" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:singleLine="false"
+                android:text="The vegan diet was created by a group of vegetarians who also chose not to consume dairy, eggs or any other animal products.\nThe vegan way of life attempts to exclude all forms of animal explotation and cruetly for ethical, environment or health reasons.\n
+
+\nHow it works:\n
+
+\nveganism is the strictest form of vegetarianism.\nIn addition to eliminating meat, it eliminates dairy, eggs and animal-delivered products, such as gelatin, honey, albumin, whey, casein and some forms of vitamin D3.\n
+
+\nWeight Loss:\n
+
+\nA vegan diet seems to be very effective at helping people to lose weight, often without counting calories. This may be explained by its very low fat and high fiber content, which makes you feel fuller for longer.\n\Vegan diet have consistently been linked to lower body weight and body mass index which is known as BMI, compare to other diets.\nOne study showed that a vegan diet helped participants lose 4.2 kg more than control diet over 18 weeks. The vegan group was allowed to eat until fullness, but control group had to restrict calories.
+\nHowever, vegan diets are not more effective for weight loss than other diets when matched for calories.\n
+
+\nOther benefits:\n
+
+\nplant-based diet have been linked with a reduced risk of heart disease, type 2 diabetes and premature death.\nlimiting processed meat may also reduce your risk of developing Alzheimer's disease and dying from heart diesease or cancer.\n
+
+\nThe downside:\n
+
+\nvegan diets eliminate animal foods completely, so they may be low in serveral nutrients. This include vitamin B12, vitamin D, iodine, iron, calcium, zinc and omega-3 fatty acids.\n
+
+\nExample vegan food:\n
+
+\n*Toufu, tempeh and seitan: These food is very rich in protein alternative to meat, fish, poultry, eggs in many recipes.\n
+\n*Fruits and vegetables: these is great source of nutrient, high iron and high calcium.\n
+\n*Nuts and nut butter: unbalanced and unroasted varities are good source of iron, fiber, magnesium, zinc, selenium and vitamin E.\n
+\n*Whole grains and cereals: these is great source of carbs, fiber,iron, vitamin B and several minerals.\n
+
+
+\nAvoid:\n
+\n*Meat and poultry: beef, lamp, pork, horse\n
+\n*Fish and seafood: all type of fish, lobster, squid\n
+\n*Dairy: milk, yoghurt, ice cream, butter\n
+\n*Bee products: honey, bee pollen, royal jelly\n
+" />
+
+            <TextView
+                android:id="@+id/tvvegan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to know more about vegan? click here for more information"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".ultralowfat">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="316dp"
+                android:layout_height="216dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/ultralow" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:singleLine="false"
+                android:text="An Ultra low-fat diet restrict the consumption of fat to under 10% of consumed calories.\nGenerally, a low-fat diet provides around 30% of its calories as fat.\nMany students have shown that this diet is ineffective for weight loss in the long term. Proponents of the ultra low-fat diet claim that traditional low-fat diets are not low-fat enough and fat intakes need to stay under 10% of total calories to produce health benefits and weight loss.\n\nHow it works:\n
+
+\nAn ultra low-fat diet contains 10% or fewer calories from fat. The diet is mostly plant-based and has a limited intake of animal products.\nTherefore , it is generally very high in carbs (80%) and low in protein (10%)\n
+
+
+\nWeight loss:\n
+\nThis diet has beeen shown to be vary sucessful for weight loss among obese individuals. In one study, obese individuals lost an average of 63kg on an ultra low-fat diet termed the rice diet\n
+
+
+\nOther benefits:\n
+\nUltra low fat diet can improve severeal risk factors for heart disease, including high blood pressure, high cholestrol and markers of inflammation.
+\nIt also can lead to significant improvements in type 2 diabetics.\n
+
+
+\nThe downside:\n
+\nThe fat restriction may cause problems in the long-term, as fat has many important roles in the body.
+\nThese include helping build cell memberanes and hormones and helping the body absorb fat-soluble vitamins. moreover, an ultra low-fat diet limits the intake of many healthy foods, lacks variety and is extremely hard to stick to.\n
+
+
+\nCooking tips:\n
+\n*Avoid deep fries\n
+\n*Use herbs or no-oil marinades to flavour foods\n
+\n*Steam vegetables\n
+\n*Bake, broil, boil, poach or roast poultry, fish and lean meats\n
+\n*Add little or no fat to foods\n"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tvultra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to know more about ultra low fat? click here for more information"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

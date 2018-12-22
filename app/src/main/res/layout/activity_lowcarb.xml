@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Lowcarb">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="316dp"
+                android:layout_height="216dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/lowcarb" />
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:singleLine="false"
+                android:text="Low-carb diets have been poplar for many decades, especially for weight loss.\nThere are several types of low-carb diets, but all of them involve limiting carb intake to 20-150 grams of net carbs per day. The primary aim of the diet is to force the body to use more fats for fuel, instead of using carbs as a main source of energy.\n
+
+
+\nHow it works:\n
+\nLow-carb diets are based on eating unlimited amounts of protein and fat,while severely limiting your carb intake. When carb intake is very low, fatyy acids are moved into the blood and transported to the liver, where some of them are turned into ketones.\nThe body can then use fatty acid and ketones in the absence of carbs as its primary energy source.\n
+
+
+\nWeight loss:\n
+\nNumerous studies show low-carb diets are extremely helpful for weight loss, especially in overweight and obese individuals.\nLow-carb diets seem to be very effective at reducing dangerous belly fat, which can become lodged around the organs. People on very low-carb diets commonly reach a state called ketosis. Many studies have found that ketogenic diets lead to more than twice the weight loss of a low-fat, calories-restricted diet.\n
+
+
+\nOther benefits:\n
+\nLow-carb diets tend to reduce your appetite and make you feel less hungry, leading to an automatic reduction in calorie intake.\nFuthermore, low-carb diets may benefit many major disease risk factors, such as blood triglycerides, cholestrol levels, blood sugar levels, insulin levels and blood pressure.\n
+
+
+\nDownside:\n
+\nLow-carb diets do not suit everyone. Some may feel great on them, while others will feel miserable.\nIn extremely rare cases, very low-carb diets can cause a serious condition called ketoacidosis. This condition seems to be more common in lactating women and can be fatal if left untreated. However, low-carb diets are safe for the majority of people.\n
+
+
+\n*Example food:\n
+\n*Meat: beef, lamb, pork, chicken\n
+\n*fish: salmon, haddock, trout\n
+\n*Eggs: omega-3\n
+\n*friuts: Apples, oranges, pears, blueberries\n
+\n*vegetables: Spinach, brocoli, carrots, cauliflower\n
+
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+
+            <TextView
+                android:id="@+id/tvlowcarb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to know more about lowcarb? click here for more information"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

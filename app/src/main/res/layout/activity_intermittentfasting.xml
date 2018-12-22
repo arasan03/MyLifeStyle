@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Intermittentfasting">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="334dp"
+                android:layout_height="216dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/intermittentfasting" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="Intermittent fasting is an eating pattern that cycle between periods of fasting and eating.\nRather than restricting the food you eat, it states when you should eat them.\nTherefore, it can be seen as more of an eating pattern than a diet.\nThe most popular ways to do intermittent fasting are:\n
+
+\n*The 16/8 method: involves skipping breakfast and restricting your daily eating period to 8 hours, subsequently fasting for the remaining 16 hours of the day.\n
+
+\n*The eat-stop-eat method: involves 24 hour fasts once or twice per week on non-consecutive days.\n
+
+\n*The 5:2 diet: on two non-consecutive days of the week, you restrict your intake to 500-600 calories. On the five remaning days, you eat like normal.\n
+
+\n*The warrior diet: eat small amounts of raw fruits and vegetables during the day and one huge meal at night , basically fasting during the day and feasting at night within a 4-hour window.\n
+
+
+\nHow it works:\n
+\nIntermittent fasting is commonly used for weight loss because it leads to relatively easy calorie restriction.\nIt can make you eat fewer calories overall, as long as you don't overcompensate by eating much more during the eating periods.\n
+
+
+\nWeight loss:\n
+\nIntermittent fasting is generally very successful for weight loss. It has been shown to cause weight loss of 3-8% over a period 3-24 weeks, which is a lot compared to most weight loss studies.\nIn addition to causing less muscle loss than standard calorie restriction, it may increase your metabloic rate by 3.6-14% in the short term.\n
+
+
+\nother benefits:\n
+\nIntermittent fasting can reduce markers of imflammation, cholestrol levels, blood triglycerides and blood sugar levels. In addition, it also increase level of human growth hormone, improve insulin sensitivity, improve cellular repair and altered gene expressions.\n
+
+
+\nThe downside:\n
+\nThe intermittent fasting is safe for well-nourished and healthy people, it does not suit well for everyone. some studies have shown it's not as beneficial for women as it is for men.\nIn addition, some people should avoid fasting. This includes those sensitive to drops in blood sugar levels, pregnant women, breastfeeding moms, teenagers, children and people who are malnourished, underweight or nutrient deficient.\n
+
+
+\nEat:\n
+\nAnything you want, just dont over do it. The focus of this diet is not what you eat but when you eat.\n
+
+
+\nAvoid:\n
+\nNothing particular to avoid. Just use common sense and avoid the top, but dont go crazy on your fasting days.\n"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/tvintermittent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to know more about intermittent fasting? click here for more information"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
