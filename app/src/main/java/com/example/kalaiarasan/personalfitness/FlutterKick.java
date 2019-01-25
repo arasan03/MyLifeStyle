@@ -1,4 +1,4 @@
-package com.example.kalaiarasan.mylifestyle;
+package com.example.kalaiarasan.personalfitness;
 
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-public class womanpushup extends AppCompatActivity {
+public class FlutterKick extends AppCompatActivity {
     private static final long START_TIME_IN_MILLIS = 120000;
 
     private TextView mTextViewCountdown;
@@ -24,11 +24,10 @@ public class womanpushup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_womanpushup);
-
-        mTextViewCountdown = findViewById(R.id.tvwomapush);
-        mbuttonReset = findViewById(R.id.pushresetbutton);
-        mButtonStartpause = findViewById(R.id.pushstartbutton);
+        setContentView(R.layout.activity_flutter_kick);
+        mTextViewCountdown = findViewById(R.id.tvflutter);
+        mbuttonReset = findViewById(R.id.fluttereset);
+        mButtonStartpause = findViewById(R.id.flutterstart);
 
         mButtonStartpause.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,3 +102,4 @@ public class womanpushup extends AppCompatActivity {
     }
 
 }
+

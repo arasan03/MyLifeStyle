@@ -1,4 +1,4 @@
-package com.example.kalaiarasan.mylifestyle;
+package com.example.kalaiarasan.personalfitness;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

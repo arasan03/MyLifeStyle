@@ -1,4 +1,4 @@
-package com.example.kalaiarasan.mylifestyle;
+package com.example.kalaiarasan.personalfitness;
 
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-public class womancrunches extends AppCompatActivity {
+public class SitUp extends AppCompatActivity {
     private static final long START_TIME_IN_MILLIS = 120000;
 
     private TextView mTextViewCountdown;
@@ -21,14 +21,14 @@ public class womancrunches extends AppCompatActivity {
 
     private long mTimeLeftinMills = START_TIME_IN_MILLIS;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_womancrunches);
-        mTextViewCountdown = findViewById(R.id.tvcrunches);
-        mbuttonReset = findViewById(R.id.resetcrunches);
-        mButtonStartpause = findViewById(R.id.startcrunches);
+        setContentView(R.layout.activity_sit_up);
+
+        mTextViewCountdown = findViewById(R.id.tvsit);
+        mbuttonReset = findViewById(R.id.resetsit);
+        mButtonStartpause = findViewById(R.id.startsit);
 
         mButtonStartpause.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,3 +103,4 @@ public class womancrunches extends AppCompatActivity {
     }
 
 }
+

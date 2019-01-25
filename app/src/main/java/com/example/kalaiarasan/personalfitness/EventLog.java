@@ -1,4 +1,4 @@
-package com.example.kalaiarasan.mylifestyle;
+package com.example.kalaiarasan.personalfitness;
 
 import android.os.Bundle;
 
@@ -7,8 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 
 import android.view.View;
-
-import android.view.View.OnClickListener;
 
 import android.widget.Button;
 
