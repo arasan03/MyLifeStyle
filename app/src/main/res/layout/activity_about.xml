@@ -17,7 +17,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="The main purpose of this MyLifestyle is to help you to keep healthy and with shape! we also include excercise for man and excercise of woman. so both of the woman and man can use this app. we also include bmi calculator in this app. while using this app and follow the excercise instructions, you can track your fitness using BMI calculator. we also include diet paln on this app. so you can choose healthy food to eat. hope you all enjoy this app. lets be Fit!"
+        android:text="The main purpose of this Personal Fitness application is to help you to keep healthy and with shape! we also include excercise for man and excercise of woman. so both of the woman and man can use this app. we also include bmi calculator in this app. while using this app and follow the excercise instructions, you can track your fitness using BMI calculator. we also include diet paln on this app. so you can choose healthy food to eat. hope you all enjoy this app. lets be Fit!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
