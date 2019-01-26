@@ -80,13 +80,13 @@
 
     <TextView
         android:id="@+id/textView25"
-        android:layout_width="353dp"
-        android:layout_height="102dp"
+        android:layout_width="335dp"
+        android:layout_height="103dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Lay stomach down on the floor with your feet together. Place your elbows under your shoulders, and lift your body up into a straight plank. Do not push your pelvis up, and do not let your hips sink down. Contract your abs, and hold this position for as long as you can. Its help to workout overall body."
         android:textAlignment="textStart"
@@ -94,7 +94,7 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.757"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:layout_constraintVertical_bias="0.0" />
